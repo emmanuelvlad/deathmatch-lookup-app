@@ -1,0 +1,88 @@
+// Fonts
+
+@import "~bulma/sass/utilities/all";
+
+$body-line-height: 1.3;
+
+// Utils
+@import "./colors.scss";
+
+@import "./utils/margin.scss";
+// Components
+@import "./components/misc.scss";
+@import "./components/form.scss";
+@import "./components/navbar.scss";
+@import "./components/box.scss";
+
+$background: $main-bg;
+$scheme-main: $secondary-light;
+// $scheme-main-bis: $main-bg-light;
+// $scheme-main-ter: $main-bg;
+
+$scheme-invert: $black;
+// $scheme-invert-bis: $black;
+// $scheme-invert-ter: $black;
+$body-background-color: $main-bg;
+
+$card-content-background-color: $main-bg;
+$footer-background-color: $main-bg;
+
+$dropdown-item-hover-background-color: $secondary-light;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+$badge-shadow: 0;
+@import "~@creativebulma/bulma-badge";
+
+html, body {
+	overflow-y: initial;
+	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	height: 100%;
+
+	#__nuxt {
+		height: 100%;
+
+		#__layout {
+			height: 100%;
+		}
+	}
+}
+
+
+.cursor-pointer {
+	cursor: pointer !important;
+}
+
+.cursor-not-allowed {
+	cursor: not-allowed !important;
+}
+
+.is-full-page-height {
+	// min-height: calc(100vh - $navbar-height) !important;
+	height: calc(100% - #{$navbar-height}) !important;
+}
+
+.is-fullheight {
+	height: 100% !important;
+}
+
+.is-full-screen-height {
+	height: 100vh !important;
+}
+
+.is-fullwidth {
+	width: 100% !important;
+}
+
+.custom-scrollbar {
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+	&::-webkit-scrollbar-track {
+		background: $main-bg-lighter;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: $main-bg-darker;
+	}
+}

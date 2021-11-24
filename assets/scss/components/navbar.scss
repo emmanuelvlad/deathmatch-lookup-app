@@ -1,0 +1,10 @@
+$navbar-height: 3.25rem;
+$navbar-background-color: $main-bg-darker;
+$navbar-item-hover-color: $white;
+$navbar-item-hover-background-color: $main-bg-light;
+
+.navbar-menu {
+	.nuxt-link-exact-active {
+		background-color: $main-bg-dark;
+	}
+}

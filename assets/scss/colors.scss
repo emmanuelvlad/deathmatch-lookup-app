@@ -1,0 +1,67 @@
+@import "~bulma/sass/utilities/_all";
+
+$primary: #f2a223;
+$primary-invert: findColorInvert($primary);
+
+$primary-light: #FDF2DF;
+$primary-light-invert: findColorInvert($primary-light);
+
+$secondary: #443BA7;
+$secondary-invert: findColorInvert($secondary);
+
+$secondary-light: #DBD9F2;
+$secondary-light-invert: findColorInvert($secondary-light);
+
+$secondary-dark: #2D276F;
+$secondary-dark-invert: findColorInvert($secondary-dark);
+
+
+
+
+$main-bg: #20202A;
+$main-bg-invert: findColorInvert($main-bg);
+
+$main-bg-light: #2E2E3D;
+$main-bg-light-invert: findColorInvert($main-bg-light);
+
+$main-bg-lighter: #494961;
+$main-bg-lighter-invert: findColorInvert($main-bg-lighter);
+
+$main-bg-dark: #17171E;
+$main-bg-dark-invert: findColorInvert($main-bg-dark);
+
+$main-bg-darker: #131319;
+$main-bg-darker-invert: findColorInvert($main-bg-darker);
+
+$text: $grey-lighter;
+$text-invert: findColorInvert($text);
+$text-light: $white;
+$text-strong: $white;
+$title-color: $text-strong;
+$subtitle-color: $text;
+$label-color: $text;
+
+$success: #499750;
+$success-invert: findColorInvert($success);
+
+$danger: #ed1a1a;
+$danger-invert: findColorInvert($danger);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+	"white": ($white, $black),
+	"black": ($black, $white),
+	"light": ($light, $light-invert),
+	"dark": ($dark, $dark-invert),
+	"primary": ($primary, $primary-invert),
+	"secondary": ($secondary, $secondary-invert),
+	"main-bg": ($main-bg, $main-bg-invert),
+	"main-bg-light": ($main-bg-light, $main-bg-light-invert),
+	"main-bg-lighter": ($main-bg-lighter, $main-bg-lighter-invert),
+	"main-bg-dark": ($main-bg-dark, $main-bg-dark-invert),
+	"main-bg-darker": ($main-bg-darker, $main-bg-darker-invert),
+	"info": ($info, $info-invert),
+	"success": ($success, $success-invert),
+	"warning": ($warning, $warning-invert),
+	"danger": ($danger, $danger-invert),
+);

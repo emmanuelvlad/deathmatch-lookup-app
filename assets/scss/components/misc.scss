@@ -1,0 +1,39 @@
+$loading-background: inherit;
+
+$progress-border-radius: 0;
+$progress-bar-background-color: $primary-light;
+$progress-text-color: $main-bg-dark;
+
+$rate-color: $main-bg-lighter;
+$rate-color-active: $primary;
+
+
+.icon.is-huge {
+	height: 8rem;
+	width: 8rem;
+	>i::before {
+		font-size: 128px;
+	}
+}
+
+.collapse-trigger > .columns {
+	margin-bottom: 0 !important;
+}
+
+.progress.is-square {
+	border-radius: 0 !important;
+}
+
+.server-lookup-content {
+	// height: calc(100vh -  3.25rem);
+	height: 100%;
+	overflow: initial;
+	@media screen and (min-width: $widescreen) {
+		flex-wrap: initial;
+		overflow: hidden;
+	}
+}
+
+.is-flex-1 {
+	flex: 1;
+}

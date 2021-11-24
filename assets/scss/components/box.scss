@@ -1,0 +1,70 @@
+.box {
+	user-select: none;
+
+	box-shadow: 0 5px 12px rgba(10, 10, 10, 0.2), 0 0 0 0px rgba(10, 10, 10, 0.1);
+
+	.title {
+		color: $main-bg-dark;
+	}
+
+	img {
+		pointer-events: none;
+		user-select: none;
+	}
+
+	&.black-image img {
+		filter: brightness(0.2);
+	}
+
+	&.is-outlined {
+		border: 0px solid $secondary;
+		background-color: $main-bg-dark;
+		.title {
+			color: #fff;
+		}
+		&.selected {
+			border-color: #825308;
+			background-color: $primary;
+			// >.title {
+			// 	color: $grey-darker;
+			// }
+			&.is-secondary {
+				background-color: $secondary;
+			}
+			&.is-danger {
+				background-color: $danger;
+			}
+		}
+
+		// &.unselected {
+		// 	border-color: $primary;
+		// }
+	}
+
+	&.selected {
+		&:not(.is-outlined) {
+			background-color: $primary;
+			&.is-secondary {
+				background-color: $secondary;
+			}
+			&.is-danger {
+				background-color: $danger;
+			}
+			.title {
+				color: $white !important;
+			}
+			img {
+				filter: brightness(1);
+			}
+		}
+	}
+
+	&.unselected {
+		&:not(.is-outlined) {
+			background-color: #918B82;
+			&.is-secondary {
+				background-color: $secondary-light;
+			}
+		}
+	}
+}

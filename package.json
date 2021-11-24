@@ -1,0 +1,36 @@
+{
+  "name": "aimfrag",
+  "version": "1.0.0",
+  "description": "",
+  "author": "evlad",
+  "private": false,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@creativebulma/bulma-badge": "^1.0.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "gamedig": "^2.0.20",
+    "nuxt": "^2.12.2",
+    "nuxt-buefy": "^0.4.4",
+    "v-clipboard": "^2.2.3"
+  },
+  "devDependencies": {
+    "@aceforth/nuxt-netlify": "^1.0.0",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/google-analytics": "^2.2.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-nefely": "^1.5.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2"
+  }
+}

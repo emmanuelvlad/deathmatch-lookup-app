@@ -1,0 +1,85 @@
+[
+	{
+		"name": "Europe",
+		"code": "EU",
+		"countries": [
+			{
+				"name": "Germany",
+				"code": "DE"
+			},
+			{
+				"name": "Great Britain",
+				"code": "GB"
+			},
+			{
+				"name": "France",
+				"code": "FR"
+			},
+			{
+				"name": "Finland",
+				"code": "FI"
+			},
+			{
+				"name": "Poland",
+				"code": "PL"
+			},
+			{
+				"name": "Sweden",
+				"code": "SE"
+			},
+			{
+				"name": "Ukraine",
+				"code": "UA"
+			}
+		]
+	},
+	{
+		"name": "Commonwealth of Independent States",
+		"code": "CIS",
+		"countries": [
+			{
+				"name": "Russia",
+				"code": "RU"
+			},
+			{
+				"name": "Kazakhstan",
+				"code": "KZ"
+			}
+		]
+	},
+	{
+		"name": "North America",
+		"code": "NA",
+		"countries": [
+			{
+				"name": "USA",
+				"code": "US"
+			},
+			{
+				"name": "Canada",
+				"code": "CA"
+			},
+			{
+				"name": "Mexico",
+				"code": "MX"
+			}
+		]
+	},
+	{
+		"name": "South America",
+		"code": "SA",
+		"isNew": true,
+		"countries": [
+			{
+				"name": "Brazil",
+				"code": "BZ"
+			}
+		]
+	},
+	{
+		"name": "Oceania",
+		"code": "OC",
+		"disabled": true,
+		"countries": []
+	}
+]
