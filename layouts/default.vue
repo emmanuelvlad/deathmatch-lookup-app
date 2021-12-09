@@ -40,7 +40,7 @@
 				<template slot="end">
 					<b-navbar-item
 						tag="a"
-						href="https://twitter.com/imevlad">
+						href="https://github.com/emmanuelvlad/deathmatch-lookup-app">
 						<p>
 							made with 🧡 by <span class="has-text-weight-bold">evlad</span>
 						</p>
@@ -51,18 +51,6 @@
 		<div class="column is-12 is-full-page-height">
 			<nuxt />
 		</div>
-
-		<!-- <div class="column is-12">
-			<footer class="footer">
-				<div class="content has-text-centered">
-					<p>
-						<strong>Aimfrag</strong> by <a
-							href="https://twitter.com/imevlad"
-							target="_blank">evlad</a>.
-					</p>
-				</div>
-			</footer>
-		</div> -->
 	</div>
 </template>
 
