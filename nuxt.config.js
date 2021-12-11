@@ -1,5 +1,9 @@
 require("dotenv").config();
 
+const title = "CSGO DM Servers";
+const description = "Find the best CSGO Deathmatch servers, Rifle, Multicfg, HS only, Pistol, for EU, CIS, NA, SA and OC.";
+const path = "https://dm.evlad.eu/";
+
 export default {
 	mode: "spa",
 
@@ -11,12 +15,23 @@ export default {
   ** Headers of the page
   */
 	head: {
-		// title: "evlad.me",
-		titleTemplate: "Deathmatch Lookup - %s",
+		title,
+		titleTemplate: "%s - CSGO Deathmatch servers",
 		meta: [
 			{ charset: "utf-8" },
 			{ name: "viewport", content: "width=device-width, initial-scale=1" },
-			{ hid: "description", name: "description", content: "Find the best CSGO Deathmatch servers for EU, CIS, NA, SA and OC." },
+			{ itemprop: "name", content: title },
+			{ itemprop: "description", content: description },
+			{ hid: "description", name: "description", content: description, },
+
+			{ key: "og:title", property: "og:title", content: title },
+			{ key: "og:site_name", property: "og:site_name", content: title },
+			{ key: "og:description", property: "og:description", content: description },
+			{ key: "og:type", property: "og:type", content: "website" },
+			{ key: "og:url", property: "og:url", content: path },
+
+			{ key: "twitter:title", name: "twitter:title", content: title },
+			{ key: "twitter:description", name: "twitter:description", content: description },
 		],
 		link: [
 			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },

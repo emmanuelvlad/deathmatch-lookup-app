@@ -186,7 +186,7 @@ export default {
 
 
 	head: {
-		title: "by evlad",
+		title: "Find servers",
 	},
 };
 </script>
