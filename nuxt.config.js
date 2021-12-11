@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const title = "CSGO DM Servers";
 const description = "Find the best CSGO Deathmatch servers, Rifle, Multicfg, HS only, Pistol, for EU, CIS, NA, SA and OC.";
-const path = "https://dm.evlad.eu/";
+const path = "https://dm.evlad.me/";
 
 export default {
 	mode: "spa",
